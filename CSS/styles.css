@@ -252,6 +252,8 @@ ul {
   pointer-events: none;
 }
 
+/* Модальне вікно */
+
 .modal {
   position: absolute;
   top: 50%;
@@ -297,6 +299,12 @@ ul {
   fill: #404BBF;
 }
 
+.modal-button-svg:hover,
+.modal-button-svg:focus {
+  background-color: #404BBF;
+  border: 1px solid #404BBF;
+  fill: currentColor;
+}
 
 /* Інформація про переваги */
 
